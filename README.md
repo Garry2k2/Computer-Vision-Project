@@ -56,6 +56,9 @@ While machine learning models provide a reliable way to detect pneumonia, it’s
 - **Clear Lung Fields**: Indicate a normal X-ray.
 - **Hazy or Cloudy Areas**: Indicate pneumonia, with potential fluid accumulation or lung inflammation.
 
+### Note:
+While visual inspection can give clues, **model predictions** are more reliable for diagnosis. The trained CNN model provides an objective and consistent method for classifying X-ray images as either **Normal** or **Pneumonia**, reducing human error and aiding in faster diagnosis.
+
 ## Key Features
 
 - **Image Preprocessing**: Rescaling pixel values, resizing images to 120x120, and normalization for efficient training.
